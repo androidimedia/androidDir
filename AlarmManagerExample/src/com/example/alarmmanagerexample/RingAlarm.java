@@ -36,7 +36,7 @@ public class RingAlarm extends Activity {
 			            
 						@Override
 						public boolean onTouch(View arg0, MotionEvent arg1) {
-							// TODO Auto-generated method stub
+							Log.i("test", "for demo");
 							mp.stop();
 			                finish();
 			                return false;
